@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+   body {background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEwMDNfMTkx%2FMDAxNjAxNzA3NDQ2NTg1.JymqecLzoe7Che3sTz2_xTwlPUMXWhns2LUAKn3C8iUg.t-Ztu4t54cZWxYDPb_Acdds0b07PLYVko6hLBiVbBcAg.JPEG.teak1015%2Fswitzerland_alps_mountains_night_beautiful_landscape_99817_2560x1440.jpg&type=sc960_832");
+        background-position: center;
+        background-size: 200vw;
+            
+        color: white
+    }
+     .time {
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .greeting {
+        font-size: 50px;
+        font-weight: bold;
+        color: pink;
+
+    }
+    .todo {
+        font-size: 40px;
+        color: pink;
+    }
+    .author {
+        font-size: 30px;
+        color: white;
+        font-style: italic;
+    }
+    .content {
+        font-size: 20px;
+        color: white;
+        font-style: italic;
+    }
+    .main {
+        width: 100vw;
+        height: 80vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: right;    
+    }
+    .quote {
+        width: 100vw;
+        height: 20vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+        .test {
+            font-size: 30px;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+    <div id="time" class="time">12:00</div>
+    <div class="greeting">곰과니네</div>
+    <div class="todo">Forever love</div>
+</div>
+<div class="quote">
+    <div id="author" class="author">" 어제보다 오늘 더 사랑하기 "</div>
+    <div id="content" class="content">" 보고 있어도 보고 싶을테니까 "</div>
+</div>
+</body>
+
+</html>
